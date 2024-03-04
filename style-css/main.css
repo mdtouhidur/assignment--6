@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div .toolTip {
+  display: none;
+}
+.icon:hover .toolTip {
+  display: block;
+}
+div .icon {
+  transition: width 2s linear 1s;
+}
+.icon:hover {
+  padding-top: 22px;
+}
+
+
+/* ${userinfo.image}
+${userinfo.category}
+${userinfo.author.name}
+${userinfo.description} */
